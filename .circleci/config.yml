@@ -497,6 +497,9 @@ workflows:
       - test-go
       - test-python-unit
 
+  debug:
+    jobs:
+      - build-rpm
 
   nightly@master:
     jobs:
