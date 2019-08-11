@@ -8,8 +8,8 @@ License: MIT
 URL: www.loudml.com
 Source0: %{name}-%{version}.tar.gz
 
-BuildRequires: python36 python36-pip
-BuildRequires: python36-devel
+BuildRequires: python36u python36u-pip
+BuildRequires: python36u-devel
 BuildRequires: systemd
 BuildRequires: systemd-units
 Requires(post): systemd
